@@ -1,0 +1,82 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+
+:root{
+    --bgcolor:#0365AE;
+    --txtcolor:#000; 
+    --breadcolor:#123F77;
+    --headbgcolor:#FFF;
+    --bgmessage:#FFF;
+    --linkcolor:#d89912;
+    --visitedcolor:#F3C42B;
+    --footcolor:#0365AE;
+}
+
+html, body{
+    color: var(--txtcolor);
+    background-color: var(--bgcolor);
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5em;
+    width: 350px;
+    margin: auto;
+}
+
+header{
+    padding: 0em 1em;
+    text-align: center;
+    background-color: var(--headbgcolor);
+}
+
+header h1{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+header h2{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#breadcrumb{
+    background-color: var(--breadcolor);
+    color: var(--txtcolor);
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main{
+    background-color: var(--contentbgcolor);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main div p{
+    background-color: var(--bgmessage);
+    margin: 0.5em;
+    text-align: justify;
+    border-radius: 2%;
+}
+
+main div img{
+    width: 550-(4/10*550);/*controlla*/
+}
+
+footer{
+    text-align: center;
+    background-color: var(--footcolor);
+}
+
+footer a:link{
+    color: var(--linkcolor);
+}
+
+footer a:visited{
+    color: var(--visitedcolor);
+}
