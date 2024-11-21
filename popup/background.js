@@ -1,4 +1,4 @@
-const TELEGRAM_API_TOKEN = '7781770552:AAGCFsa380r1Qbp4HyaMK6_pZA8HB9Ek2g4';
+const TELEGRAM_API_TOKEN = 'BOT_TOKEN';
 const CHANNEL_ID = '-1002379109528';
 
 // Funzione per ottenere l'URL del file
